@@ -19,6 +19,11 @@ void clear_data()
     mapping vroom_info;
     int usr_count;
 
+    if (!mapp(RoomInfo))
+    {
+        return;
+    }
+
     foreach(vroom in keys(RoomInfo)) {
         usr_count = 0;
         vroom_info = RoomInfo[vroom];
