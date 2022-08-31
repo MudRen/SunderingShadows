@@ -250,6 +250,7 @@ int save_description_profile(object tp)
     true_name = (string)tp->query_true_name();
     folder = true_name[0..0]+"/";
     seteuid(UID_ROOT);
+    mkdir(DESC_DIR+folder);
     save_object(DESC_DIR+folder+true_name);
     return 1;
 }
