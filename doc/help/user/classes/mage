@@ -2,7 +2,6 @@
 
 %^RESET%^%^CYAN%^Stat requirements:%^RESET%^ 16 intelligence
 %^RESET%^%^CYAN%^Alignments allowed:%^RESET%^ any
-%^RESET%^%^CYAN%^Cannot multiclass with:%^RESET%^ sorcerer, psion
 %^RESET%^%^CYAN%^Hitdice:%^RESET%^ d6
 %^RESET%^%^CYAN%^Saving throws:%^RESET%^ will strong, fort/reflex weak
 %^RESET%^%^CYAN%^Class Skills:%^RESET%^ academics, dungeoneering, healing, spellcraft
@@ -31,4 +30,3 @@ Mages recieve the following cantrips (type 'recall cantrip spells'):
 %^RESET%^%^CYAN%^See also: %^RESET%^prepare, feats, stats, skills, spells, cast, buff, magic school, master, prestige classes, archmage, new caster, arcane bond
 
 %^CYAN%^If you have a spell book, you may also see %^RESET%^<help book>%^CYAN%^.%^RESET%^
-

@@ -35,7 +35,7 @@ int help()
         "follower title [%^ORANGE%^%^ULINE%^id%^RESET%^] [%^ORANGE%^name%^RESET%^] \n"+
         "follower summon [%^ORANGE%^%^ULINE%^id%^RESET%^] \n"+
         "follower dismiss [%^ORANGE%^%^ULINE%^id%^RESET%^]\n"+
-        "follower swap [%^ORANGE%^%^ULINE%^id%^RESET%^] [%^ORANGE%^%^ULINE%^id2%^RESET%^]\n"+
+        "follower swap [%^ORANGE%^%^ULINE%^id%^RESET%^] [%^ORANGE%^%^ULINE%^id2%^RESET%^] (currently disabled)\n"+
         "follower [%^ORANGE%^%^ULINE%^id%^RESET%^] [%^ORANGE%^%^ULINE%^command%^RESET%^] OR follower command [%^ORANGE%^%^ULINE%^id%^RESET%^] [%^ORANGE%^%^ULINE%^command%^RESET%^]\n"+
         "follower [%^ORANGE%^%^ULINE%^id1,id2%^RESET%^] [%^ORANGE%^%^ULINE%^command%^RESET%^] \n"+
         "follower all [%^ORANGE%^%^ULINE%^command%^RESET%^] \n\n"+
@@ -478,7 +478,7 @@ int cmd_follower(string raw_arguments)
         }
         break;
 
-    case "swap":
+    /*case "swap":
         if (!sscanf(arg_one, "%d", target_follower_key))
         {
             write("%^C051%^" + target_followers_array[i] + "%^C030%^ is not a valid ID.");
@@ -498,7 +498,7 @@ int cmd_follower(string raw_arguments)
         {
             write("%^C030%^You realize that one of those places wasn't populated to begin with. How silly of you.");
         }
-        break;
+        break;*/
 
     case "command":
         if (!arg_one || !arg_two)

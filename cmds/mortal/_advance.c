@@ -213,6 +213,7 @@ int can_multiclass(object ob,string myclass) {
     stats               = keys(stats_needed);
 
 
+    /*
     for(i=0;i<sizeof(classes);i++)
     {
         if(member_array(classes[i],bad_classes) != -1)
@@ -222,6 +223,7 @@ int can_multiclass(object ob,string myclass) {
             return 0;
         }
     }
+    */
 
     if(member_array(alignment,bad_alignments) != -1)
     {

@@ -25,7 +25,7 @@ void create() {
     set_guild_level("fighter",25);
     set_mlevel("fighter",25);
     set_max_hp(200);
-    set_hp(200);
+    set_hp(query_max_hp());
     set_property("swarm",1);
     set_stats("strength",18);
     set_exp(1000);
@@ -57,3 +57,13 @@ void init(){
      }
    }
 }
+
+// Taming DCs: Low - 10, Mid - 25, High - 40, Epic - 55
+// Types of DCs: "survival" for wild creatures (snakes, rats, stags, spiders, etc...)
+//               "spellcraft" for magical creatures (elementals, sprites, will o wisp, etc...)
+//               "dungeoneering" for constructs (clockwork creatures, golems, etc...)
+int is_sapient(){ return 0; }
+int is_tamable(){ return 1; }
+int query_tame_DC(){ return 40; }
+string query_DC_type(){ return "survival"; }
+

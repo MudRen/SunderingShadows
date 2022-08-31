@@ -2,7 +2,6 @@
 
 %^RESET%^%^CYAN%^Stat requirements:%^RESET%^ 16 charisma
 %^RESET%^%^CYAN%^Alignments allowed:%^RESET%^ any
-%^RESET%^%^CYAN%^Cannot multiclass with:%^RESET%^ mage, psion
 %^RESET%^%^CYAN%^Hitdice:%^RESET%^ d6
 %^RESET%^%^CYAN%^Saving throws:%^RESET%^ will strong, fort/reflex weak
 %^RESET%^%^CYAN%^Class Skills:%^RESET%^ academics, perception, influence, spellcraft
@@ -20,7 +19,6 @@ Sorcerers get bonus spells from bloodlines. To see available bloodlines use %^OR
 Sorcerers receive the following cantrips (type 'recall cantrip spells'):
 %^CYAN%^Acid Splash, Daze, Detect Magic, Dancing Lights, Disrupt Undead, Ray of Frost, Resistance%^RESET%^
 
-Sorcerers cannot wield weapons while casting. They cannot use armor while casting, unless they have the applicable feats. 
+Sorcerers cannot wield weapons while casting. They cannot use armor while casting, unless they have the applicable feats.
 
 %^RESET%^%^CYAN%^See also: %^RESET%^ bloodlines, feats, stats, skills, spells, cast, buff, prepare, master, prestige classes, new caster
-
