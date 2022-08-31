@@ -390,7 +390,8 @@ mapping load_mons_db(string fromfile)
     int i, max;
     // Mostly cribbed from /adm/obj/master.c
     work = ([ ]);
-    if(!(max=sizeof(lines=explode(read_file(fromfile), "\n"))))
+
+    if(file_size(fromfile)<0 || !(max=sizeof(lines=explode(read_file(fromfile), "\n"))))
     {
         write("Error in reading monsters database ("+fromfile+").\n");
         return work ;
